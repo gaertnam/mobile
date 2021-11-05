@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="images/icons8-heart-with-pulse-48.png">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Nurses Know</title>
+  </head>
+  <body>
+    <div class="skip"><a href="#contactus">Skip to Main Content</a></div>
+    <nav>
+        <ul>
+          <li><a href ="index.html">About</a></li>
+          <li><a href="nurses.html">For Nurses</a></li>
+          <li><a href="patients.html">For Patients</a></li>
+          <li id="current"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    <main>
+        <header id="main">
+            <h1>Nurses Know</h1>
+            <p>For patients that want more.</p>
+        </header>
+
+        <h2 id="contactus">Contact Us</h2>
+        <div class="contact">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="">
+          
+              <label for="usertype">User Type (Choose One)</label>
+              <select id="usertype" name="usertype">
+                <option value="nurse">Nurse</option>
+                <option value="patient">Patient</option>
+                <option value="other">Other</option>
+              </select>
+          
+              <label for="comment">Comment</label>
+              <textarea id="comment" name="comment" placeholder="Send Us Your Thoughts" style="height:100px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div> 
+
+          <div class="thankyou-image">
+            <img src="images/thankyounurses.jpeg" alt=""/>
+          </div>
+    </main>
+    <footer>
+      <p>&copy;Nurses Know<br/>
+        Ashley Gaertner - University of Michigan</p>
+    </footer>
+  </body>
+</html>
