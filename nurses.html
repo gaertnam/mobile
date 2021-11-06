@@ -23,6 +23,38 @@
         <h1>Nurses Know</h1>
         <p>For patients that want more.</p>
       </header>
+      <h2 id = "nurses">For Nurses</h2>
+      <p>For many nurses that have spent a portion of their careers in the operating room, we know there are a number of phyisicans that you would trust with your own care. However, as with any profession, there are some amazing surgeons, those that have perfected their skills and uphold the highest patient safety standards, but also those whose abilities, at times, are questionable at best. 
+        <br><br> Using the form below, please find and rate a provider that you have extensive professional experience with. Do not base this rating off of personal relationships, bedside manner, or any other quality other than skill set alone. We want patients to use this knowledge to make informed decisions for the best possible outcomes during a very vulnerable time.</p>
+        <br>
+        <div class="rate">
+          <form action="rating_page.php">
+            <label for="physician_name">Physician</label>
+            <select id="physician_name" name="physician_name">
+              <option value="doctor_a">Doctor A</option>
+              <option value="doctor_b">Doctor B</option>
+              <option value="doctor_c">Doctor C</option>
+              <option value="doctor_d">Doctor D</option>
+              <option value="doctor_e">Doctor E</option>
+              <option value="doctor_f">Doctor F</option>
+              <option value="doctor_g">Doctor G</option>
+              <option value="doctor_h">Doctor H</option>
+              <option value="doctor_i">Doctor I</option>
+            </select>
+          <form>
+            <input type="radio" id="high" name="rating" value="high">
+            <label for="high">Would Highly Recommend</label><br>
+            <input type="radio" id="low" name="rating" value="low">
+            <label for="low">Would Definitely Not Recommend</label><br>
+          </form>
+          <br>
+            <label for="addinfo">Additinal Information</label>
+            <textarea id="addinfo" name="addinfo" placeholder="Tell Us More!" style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+        
+          </form>
+        </div> 
     </main>
     <footer>
       <p>&copy;Nurses Know<br/>
